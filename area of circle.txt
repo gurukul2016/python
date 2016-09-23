@@ -1,0 +1,9 @@
+declare
+area number;
+begin
+for r in 1..10 loop
+area:=3.14*r*r;
+dbms_output.put_line(r||' '||area);
+end loop;
+end;
+/
